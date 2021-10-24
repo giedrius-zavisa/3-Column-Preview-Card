@@ -24,12 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Desktop](https://github.com/Sypnotick/3-Column-Preview-Card/blob/main/images/Desktop-Final.png)
+![Mobile](https://github.com/Sypnotick/3-Column-Preview-Card/blob/main/images/mobile-final.png)
+
 
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/3-column-preview-card-BXR09G9Jt)
 - [Live site URL](https://sypnotick.github.io/3-Column-Preview-Card/)
 
 ## My process

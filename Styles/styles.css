@@ -30,6 +30,7 @@ body{
 }
 
 .main-container {
+    border-radius:20px;
     width:80vw;
     margin-bottom:20%;
     display:flex;
@@ -47,6 +48,7 @@ body{
 
 .card-option:nth-child(1) {
     background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
 }
 
 .card-option:nth-child(2) {
@@ -55,6 +57,7 @@ body{
 
 .card-option:nth-child(3) {
     background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
 }
 
 img {
@@ -64,13 +67,15 @@ img {
 }
 
 
-a {
+.card-option > a {
     margin-top: 5em;
     border-radius:  25px;
     background-color: hsl(0, 0%, 95%);
     border:none;
     padding: 0.3em 0.2em;
     text-align: center;
+    border-color: hsl(0, 0%, 95%);
+    border:1px solid
 }
 
 a:hover{
@@ -81,13 +86,30 @@ a:hover{
     color:hsl(31, 77%, 52%);
 }
 
+#link-1:hover {
+    color:white;
+    background-color: hsl(31, 77%, 52%);
+}
+
 #link-2{
     color:hsl(184, 100%, 22%);
 }
 
+#link-2:hover {
+    color:white;
+    background-color: hsl(184, 100%, 22%);
+}
+
+
 #link-3{
     color:hsl(179, 100%, 13%);
 }
+
+#link-3:hover {
+    color:white;
+    background-color: hsl(179, 100%, 13%);
+}
+
 
 .attribution { 
     font-size: 11px; 
@@ -95,8 +117,4 @@ a:hover{
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-}
-
-@media (max-width: 1000px) {
-
 }

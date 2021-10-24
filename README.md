@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://your-solution-url.com)
-- [Live site URL](https://your-live-site-url.com)
+- [Live site URL](https://sypnotick.github.io/3-Column-Preview-Card/)
 
 ## My process
 

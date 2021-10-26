@@ -11,37 +11,44 @@ html {
     text-align: left;
 }
 
-h1{
+h2{
     width:100%;
     margin: 10% auto;
     color:hsl(0, 0%, 95%);
+    font-size:2rem;
 }
 
 p {
     color:hsla(0, 0%, 100%, 0.75);
+    font-size:0.8rem;
+    font-weight:lighter;
+    font-family: "Lexend Deca", sans-serif;
 }
 
 body{
     background-color: hsl(0, 0%, 95%);
-    display:flex;
-    flex-direction: column;  
-    width:50vw;
-    margin:10vh auto;
-    overflow:hidden
+    overflow:hidden;
+    font-family: "Big Shoulders Display", cursive;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .main-container {
     border-radius:20px;
-    width:80vw;
+    width:80%;
     margin-bottom:20%;
     display:flex;
     flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    max-width:50%;
 }
 
-
 .card-option {
-    width: 20%;
-    padding: 5vh;
+    padding: 3rem;
     display:flex;
     flex-direction: column;
     justify-content:space-between;
@@ -69,6 +76,7 @@ img {
 
 
 .card-option > a {
+    font-family: "Lexend Deca", sans-serif;
     margin-top: 5em;
     border-radius:  25px;
     background-color: hsl(0, 0%, 95%);
@@ -80,7 +88,9 @@ img {
 }
 
 a:hover{
+   
     cursor: pointer;
+    transition: all 0.2s;
 }
 
 #link-1 {
@@ -133,6 +143,7 @@ a:hover{
     .main-container {
         display: flex;
         flex-direction: column;
+        max-width: 70%;
     }
 
     .card-option{
